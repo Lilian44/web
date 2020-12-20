@@ -6,73 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domaine d'O</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/6cfe97a957.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="col-8 mx-auto">
-        <div class="row d-flex justify-content-between m-2">
-            <div class="d-flex col-2">
-                <p>f</p>
-                <p>t</p>
-                <p>i</p>
-                <p>l</p>
-            </div>
-            <img src="./img/logo-domaine-d-o.png" class="col-2" alt="logo domaine d'o">
-            <div class=" col-2 hm-75">
-                <a class=" text-secondary border border-secondary bg-white p-0 ">NOTIFICATIONS</a>
-                <a class=" text-secondary border border-secondary bg-white p-0 m-0">ABONNEMENT</a>
+    <header class=" container col-8 mx-auto">
+        <div class="row d-flex justify-content-between mb-4 mt-2">
+            <ul class="d-flex col-2 list-unstyled">
+                <li>
+                    <i class="fab fa-facebook-f fa-xs m-2"></i>
+                </li>
+                <li>
+                    <i class="fab fa-twitter fa-xs m-2"></i>
+                </li>
+                <li>
+                    <i class="fab fa-youtube fa-xs m-2"></i>
+                </li>
+                <li>
+                    <i class="fab fa-tripadvisor fa-xs m-2"></i>
+                </li>
+            </ul>
+            <h1>
+                <img src="./img/logo-domaine-d-o.png" alt="logo domaine d'o">
+            </h1>
+            <div>
+                <a class=" text-secondary border border-secondary bg-white p-1 "><i class="fas fa-bell"></i> <strong>NOTIFICATIONS</strong> </a>
+                <a class=" text-secondary border border-secondary bg-white p-1 ml-1"><i class="fas fa-bookmark"></i><strong> ABONNEMENT</strong></a>
             </div>
         </div>
-        <navbar class="m-2">
-            <ul class="row list-unstyled d-flex justify-content-between">
-                <li class="col-3">SPECTACLES</li>
-                <li class="col-3">ZOOM-SUR</li>
-                <li class="col-3">AVEC LE PLUBLIC</li>
-                <li class="col-3">PRATIQUE</li>
+        <navbar class="m-2 d-flex justify-content-between ">
+            <i class=" fas fa-bars h2 "></i>
+            <ul class="row list-unstyled d-flex justify-content-around col-10 ">
+                <li class=" "> <strong>SPECTACLES</strong> </li>
+                <li class=" "><strong>ZOOM-SUR</strong></li>
+                <li class=""><strong>AVEC LE PUBLIC</strong></li>
+                <li class=" "><strong>PRATIQUE</strong></li>
             </ul>
+            <i class="fas fa-search h2"></i>
         </navbar>
     </header>
     <main>
-        <section class="bg-secondary p-2">
-            <div class="col-8 mx-auto p-2">
-                <h2 class="text-white h2">Info flash</h2>
+        <section class="bg-secondary p-4 ">
+            <div class="col-8 mx-auto p-2 ">
+                <h2 class="text-white h2 ">Info flash</h2>
                 <div class="row ">
-                    <h2 class="col-4 text-white h5">COVID-19 INFORMATION SUR LES SPECTACLE(MISE A JOUR 04/12)</h2>
-                    <p class="col-4 text-white h6">
+                    <h2 class="col-4 text-white h3 ">COVID-19 INFORMATION SUR LES SPECTACLE(MISE A JOUR 04/12)</h2>
+                    <p class="col-4 text-white h6 ">
                         Suite aux dernières mesures gouvernementales, pour lutter contre l'épidémie de COVID-19, les bureaux du domaine d'O restent fermés
                     </p>
-                    <div class="col-4 "><button class="btn float-right bg-white text-secondary rounded-0 mr-5">PLUS D'FINOS</button></div>
+                    <div class="col-4 "><button class="btn float-right bg-white text-secondary rounded-0 mr-5 ">PLUS D'FINOS</button></div>
                 </div>
             </div>
         </section>
         <section class="col-10 mx-auto d-flex ">
-            <article class="col-4 ">
-                <img src="./img/visuel_accueil_site-2020-final2.jpg" class="m-2" alt="visuel saison accueil">
+            <div class="card bg-dark text-white col-6 p-0 m-3 border-0 ">
+                <img src="./img/visuel_accueil_site-2020-final2.jpg " class="card-img rounded-0 " alt="visuel saison 2020/2021 ">
+                <div class="card-img-overlay d-flex flex-column justify-content-end ">
 
-            </article>
+                    <p class="card-text text-white text-right h1 ">OUVERTURE DE LA SAISON</p>
+                    <div>
+                        <button class="border-secondary text-white bg-secondary p-2 float-right bg-white text-secondary ">PLUS D'INFOS</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-4 p-0 m-3 border-0 ">
+                <img src="./img/artifice.jpg " class="card-img-top rounded-0 " alt="feu d 'artifice">
+                <div class="card-body d-flex pl-0 pr-0 ">
+
+                    <p class="card-text text-secondary h3"> <strong> REPRISE EN JANVIER ? RÉSERVEZ OU OFFREZ DES PLACES DE SPECTACLE !</strong></p>
+                    <div class="d-flex flex-column justify-content-between col-4 ">
+                        <div>
+                            <i class="fas fa-caret-square-right h1 text-secondary float-right m-1"></i>
+                            <i class="fas fa-caret-square-left h1 text-secondary float-right m-1"></i>
+                        </div>
+                        <button class="border-secondary text-white bg-secondary p-2 float-right bg-white text-secondary">PLUS D'INFOS</button>
+                    </div>
+
+                </div>
         </section>
+        </section>
+
         <section class=" bg-grey-light p-4">
             <p class="offset-2">Accès par festival</p>
             <div class="row col-8 mx-auto d-flex justify-content-between">
 
-                <div>
+                <div class="offset-1">
                     <a href="#" class="bg-dark text-white p-2 h6 ">FESTIVAL FOLIE D'O 2020</a>
                     <a href="#" class="bg-dark text-white p-2 h6">SAISON 20/21</a>
                 </div>
 
-                <a href="#" class="bg-white text-dark border border-dark p-2 h6">LE CALENDRIER</a>
+                <a href="#" class="bg-white text-dark border border-dark p-2 h6"><i class="far fa-calendar-alt"></i> LE CALENDRIER</a>
 
             </div>
-
         </section>
 
         <section class=" container   col-12 mx-auto">
             <div class="row d-flex justify-content-center">
 
                 <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/12_k-bazar-c-oussama-zaki.jpg" class="card-img " alt="...">
+                    <img src="./img/12_k-bazar-c-oussama-zaki.jpg" class="card-img " alt="K bazar en specatcle">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
+                        <h3 class="card-title">Saison 20/21</h3>
 
                         <div>
                             <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
@@ -87,9 +121,9 @@
                     </div>
                 </div>
                 <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/400x600-folies_do2020-petite.jpg" class="card-img " alt="...">
+                    <img src="./img/400x600-folies_do2020-petite.jpg" class="card-img " alt="La folie éclate le grand show">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
+                        <h3 class="card-title">Saison 20/21</h3>
 
                         <div>
                             <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
@@ -104,65 +138,9 @@
                     </div>
                 </div>
                 <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/a_nos_ailleurs_credit_marc_ginot2200px.jpg" class="card-img " alt="...">
+                    <img src="./img/a_nos_ailleurs_credit_marc_ginot2200px.jpg" class="card-img " alt="Un type devant un rideau je sais pas quoi mettre d'autre en description">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
-
-                        <div>
-                            <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
-                            <p class="card-text text-white m-0">K BAZAR 30</p>
-
-                            <p class="card-text text-secondary">ANNULE pour cause de cris sanitaire REPORT A L'ETUDE plus d'informations à venir.</p>
-                            <div class="d-flex justify-content-between">
-                                <button class="border-secondary text-secondary bg-white p-1 pl-3 pr-3">DETAILS</button>
-                                <button class="border-0 text-white bg-secondary p-2">RESERVER</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-        </section>
-        <section class=" container   col-12 mx-auto">
-            <div class="row d-flex justify-content-center">
-
-                <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/14_il-faut-direc-denise-oliver-fierro.jpg" class="card-img " alt="...">
-                    <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
-
-                        <div>
-                            <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
-                            <p class="card-text text-white m-0">K BAZAR 30</p>
-
-                            <p class="card-text text-secondary">ANNULE pour cause de cris sanitaire REPORT A L'ETUDE plus d'informations à venir.</p>
-                            <div class="d-flex justify-content-between">
-                                <button class="border-secondary text-secondary bg-white p-1 pl-3 pr-3">DETAILS</button>
-                                <button class="border-0 text-white bg-secondary p-2">RESERVER</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/15_fatumata-diawaracecard.jpg" class="card-img " alt="...">
-                    <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
-
-                        <div>
-                            <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
-                            <p class="card-text text-white m-0">K BAZAR 30</p>
-
-                            <p class="card-text text-secondary">ANNULE pour cause de cris sanitaire REPORT A L'ETUDE plus d'informations à venir.</p>
-                            <div class="d-flex justify-content-between">
-                                <button class="border-secondary text-secondary bg-white p-1 pl-3 pr-3">DETAILS</button>
-                                <button class="border-0 text-white bg-secondary p-2">RESERVER</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/20200222_111052.jpg" class="card-img " alt="...">
-                    <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
+                        <h3 class="card-title">Saison 20/21</h3>
 
                         <div>
                             <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
@@ -182,9 +160,9 @@
             <div class="row d-flex justify-content-center">
 
                 <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/16_please-please-pleasecgregory-batardon.jpg" class="card-img " alt="...">
+                    <img src="./img/14_il-faut-direc-denise-oliver-fierro.jpg" class="card-img " alt="description du specatcle">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
+                        <h3 class="card-title">Saison 20/21</h3>
 
                         <div>
                             <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
@@ -199,9 +177,9 @@
                     </div>
                 </div>
                 <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/20200222_111052.jpg" class="card-img " alt="...">
+                    <img src="./img/15_fatumata-diawaracecard.jpg" class="card-img " alt="un concert dans le désert, c'était pour la rime ">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
+                        <h3 class="card-title">Saison 20/21</h3>
 
                         <div>
                             <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
@@ -216,9 +194,65 @@
                     </div>
                 </div>
                 <div class="card bg-dark text-white  col-2  p-0 m-3 ">
-                    <img src="./img/17b_d-construction_dyptik-3rstu-mayhew_0.jpg" class="card-img " alt="...">
+                    <img src="./img/20200222_111052.jpg" class="card-img " alt="description de l'image en faisant attention au SEO">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
-                        <h5 class="card-title">Saison 20/21</h5>
+                        <h3 class="card-title">Saison 20/21</h3>
+
+                        <div>
+                            <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
+                            <p class="card-text text-white m-0">K BAZAR 30</p>
+
+                            <p class="card-text text-secondary">ANNULE pour cause de cris sanitaire REPORT A L'ETUDE plus d'informations à venir.</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="border-secondary text-secondary bg-white p-1 pl-3 pr-3">DETAILS</button>
+                                <button class="border-0 text-white bg-secondary p-2">RESERVER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <section class=" container   col-12 mx-auto">
+            <div class="row d-flex justify-content-center">
+
+                <div class="card bg-dark text-white  col-2  p-0 m-3 ">
+                    <img src="./img/16_please-please-pleasecgregory-batardon.jpg" class="card-img " alt="description de l'image en faisant attention au SEO">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                        <h3 class="card-title">Saison 20/21</h3>
+
+                        <div>
+                            <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
+                            <p class="card-text text-white m-0">K BAZAR 30</p>
+
+                            <p class="card-text text-secondary">ANNULE pour cause de cris sanitaire REPORT A L'ETUDE plus d'informations à venir.</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="border-secondary text-secondary bg-white p-1 pl-3 pr-3">DETAILS</button>
+                                <button class="border-0 text-white bg-secondary p-2">RESERVER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white  col-2  p-0 m-3 ">
+                    <img src="./img/20200222_111052.jpg" class="card-img " alt="description de l'image en faisant attention au SEO">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                        <h3 class="card-title">Saison 20/21</h3>
+
+                        <div>
+                            <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
+                            <p class="card-text text-white m-0">K BAZAR 30</p>
+
+                            <p class="card-text text-secondary">ANNULE pour cause de cris sanitaire REPORT A L'ETUDE plus d'informations à venir.</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="border-secondary text-secondary bg-white p-1 pl-3 pr-3">DETAILS</button>
+                                <button class="border-0 text-white bg-secondary p-2">RESERVER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white  col-2  p-0 m-3 ">
+                    <img src="./img/17b_d-construction_dyptik-3rstu-mayhew_0.jpg" class="card-img " alt="description de l'image en faisant attention au SEO">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                        <h3 class="card-title">Saison 20/21</h3>
 
                         <div>
                             <p class="card-text text-white m-0 ">17/12/2020 > 18/12/2020</p>
@@ -236,7 +270,34 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer class="container col-6 d-flex justify-content-between h6 border-top mt-2 pt-3 pl-0 pr-0">
+
+        <section>
+            <p>Espace technique</p>
+            <p>Espace Multimedia</p>
+            <p>Lettre d'info</p>
+            <p>Partenaires</p>
+
+        </section>
+        <section>
+            <p>Crédits</p>
+            <p>Mentions légales</p>
+        </section>
+        <section class="col-1 m-0">
+            <p>Domaine d'O 178, rue de la Carriérasse 34090 Montpellier Tél. : 0800 200 165 service et appel gratuits</p>
+        </section>
+        <section class="col-4 m-0">
+            <p>
+                Le domaine d'O est un domaine d'art et de spectacles pluridisciplinaire : théâtre, musique, cirque, danse, spectacles jeune public. Il abrite un amphithéâtre de 1800 places, le théâtre Jean-Claude Carrière de 600 à 1200 places, un bistrot et une pinède
+                de 3 hectares. Le domaine d'O produit une saison culturelle et quatre festivals et accueille quatre autres festivals.
+            </p>
+        </section>
+        <section class="col-2 ">
+            <img src="./img/mmm.gif" alt="log montpellier méditerranée métropole">
+        </section>
+
+
+    </footer>
 
 </body>
 
